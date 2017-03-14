@@ -8,4 +8,5 @@ def fib(n):
 		n=n-1
 
 if __name__=='__main__':
-	fib(5)
+	n=int(input('Please enter the number for which the Fib series to be printed'))
+	fib(n)
